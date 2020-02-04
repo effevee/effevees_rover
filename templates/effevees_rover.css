@@ -1,0 +1,165 @@
+/* controle paneel */
+#controls { 
+    position:absolute; 
+    top:0px;
+    left:0px; 
+    width:640px; 
+    height:480px; 
+    border:0px solid #000000; 
+}
+
+/* knop vooruit */
+#idBtnVooruit { 
+    position:absolute; 
+    top:0px;
+    left:214px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4; 
+    z-index: 20;
+    background: url(pijl-vooruit.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* knop stoppen */    
+#idBtnStoppen { 
+    position:absolute; 
+    top:160px;
+    left:214px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4;
+    z-index: 20;
+    background: url(stoppen.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* knop achteruit */
+#idBtnAchteruit { 
+    position:absolute; 
+    top:320px;
+    left:214px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4;
+    z-index: 20;
+    background: url(pijl-achteruit.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* knop links */
+#idBtnLinks { 
+    position:absolute; 
+    top:160px;
+    left:0px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4;
+    z-index: 20;
+    background: url(pijl-links.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* knop rechts */    
+#idBtnRechts { 
+    position:absolute; 
+    top:160px;
+    left:426px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4;
+    z-index: 20;
+    background: url(pijl-rechts.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* toggle modus handbediening */
+#idBtnModus.Default,
+#idBtnModus.hand { 
+    position:absolute; 
+    top:320px;
+    left:0px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4;
+    z-index: 20;
+    background: url(knop-hand.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* toggle modus auto navigatie */
+#idBtnModus.auto { 
+    position:absolute; 
+    top:320px;
+    left:0px; 
+    width:213px; 
+    height:160px;  
+    opacity:0.4;
+    z-index: 20;
+    background: url(knop-auto.png) no-repeat;
+    background-position: center center; 
+    border:0px solid #000000;
+}
+
+/* knoppen minder transparant maken bij hover */
+#idBtnVooruit:hover, 
+#idBtnStoppen:hover, 
+#idBtnAchteruit:hover,
+#idBtnLinks:hover,
+#idBtnRechts:hover,
+#idBtnModus:hover {
+    opacity:0.8;
+}
+
+/* knoppen verbergen bij auto navigatie */
+#idBtnVooruit.auto, 
+#idBtnStoppen.auto,
+#idBtnAchteruit.auto,
+#idBtnLinks.auto,
+#idBtnRechts.auto {
+    visibility: hidden;
+}
+
+/* text input boxen voor afbeelden snelheid en afstanden */
+input[type=text] {
+    background: transparent;
+    border: none;
+    width: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    font-color: #afaeae;
+}
+
+/* snelheid */
+#snelheid {
+    position: absolute;
+    top:70px;
+    left:70px;
+    opacity:0.4; 
+    z-index: 20;
+}                        
+
+/* afstand voor */
+#afstandvoor {
+    position: absolute;
+    top:70px;
+    left:450px; 
+    opacity:0.4; 
+    z-index: 20;
+}                        
+
+/* afstand achter */
+#afstandachter {
+    position: absolute;
+    top:370px;
+    left:450px; 
+    opacity:0.4; 
+    z-index: 20;
+}                        
+

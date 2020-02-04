@@ -1,2 +1,3 @@
 # effevees_rover
-Een robotvoertuig die met een Raspberry Pi met camera via een eenvoudige webpagina bestuurd wordt
+Effevee's rover is een robotvoertuig dat op afstand bestuurd wordt en ondertussen beelden streamt van de onboard Pi camera. De aanwezige afstandssensoren zorgt ervoor dat botsingen met obstakels worden vermeden. De stuursoftware is geschreven in python en wordt bediend via een web interface. De Raspberry Pi is voorzien van een wifi module zodat we vanaf iedere pc, tablet of smartphone met een verbinding op het netwerk het voertuig draadloos kunnen besturen. In principe kan je zelfs via port forwarding op je router het voertuig besturen over het internet. Als uitbreiding
+is er ook een autonavigatie modus van het robotvoertuig toegevoegd.
